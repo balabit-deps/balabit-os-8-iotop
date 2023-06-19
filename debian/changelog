@@ -1,3 +1,12 @@
+iotop (0.6-24-g733f3f8-1ubuntu0.1) focal; urgency=medium
+
+  * d/p/crash-due-to-non-UTF-8-characters-in-process.patch: Fix the
+    crash caused by non-UTF-8 characters by using the Python feature of
+    replacing non-UTF-characters with the U+FFFD replacement character.
+    (LP: #1932523)
+
+ -- Michal Maloszewski <michal.maloszewski@canonical.com>  Mon, 19 Jun 2023 15:39:59 +0200
+
 iotop (0.6-24-g733f3f8-1) unstable; urgency=medium
 
   * New upstream snapshot
